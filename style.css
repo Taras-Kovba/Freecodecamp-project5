@@ -1,0 +1,127 @@
+*{margin:0px; padding:0px; text-decoration: none;}
+
+#nav-bar{background-color: #75BCAD;
+			height:70px;
+			position: sticky;
+			width:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			top:0px;
+}
+
+#nav-bar a{margin-left:5%;
+			  color: white;
+			  font-size:25px;
+}
+
+#nav-bar a:first-child{margin:0px;}
+
+#welcome-section{color:black;
+					  text-align: center;				  
+					  color:white;
+					  background:url("bg_repeat.jpg");
+					  padding-top:200px;
+					  color:#318CE7;
+					  height:100vh;
+					  max-height: 300px;
+					}
+
+#welcome-section h1{font-size:60px;}
+
+#welcome-section h2{color:#F07427;
+						  font-size:40px;
+}
+
+#projects{background-color: #27C4F0;
+			 text-align: center;
+			 padding-top:50px;
+			 max-width:1200px;
+			 display:flex;
+			 flex-wrap: wrap;
+			 margin:0px auto;
+			 padding-bottom:50px;	 
+}
+
+.projects_title{background-color:#27C4F0;
+					 text-align: center;
+					 padding-top:50px;
+					 font-size:30px;
+					 color:white;}
+
+#projects h2{color:white;
+				 font-size:30px;
+}
+
+.project-tile{margin-top:50px;
+			     display: flex;
+			     flex-direction: column;
+			     max-width:350px;
+			     margin-left:12.9%;
+}
+
+.project-tile img{max-height:300px;}
+
+.project-link{font-size:25px;
+				  color:white;
+				  margin-left:0px;
+				  padding-top:10px;
+				  padding-bottom: 10px;
+				  background-color:#75BCAD;
+				  width:114%; 
+}
+
+#profile{text-align: center;
+			padding-top:50px;
+}
+#wrapper{background-color:#27C4F0;}
+
+.image{}
+
+@media (max-width:1200px){
+	#projects{flex-direction: column;
+				 justify-content: center;
+				 margin-left:0px;
+				 padding:20px 60px 0px 10px;
+	}
+
+	.project-tile{margin:50px 0px 0px 0px;
+					  align-self: center;
+	}
+
+	.project-tile:last-child{margin-bottom:50px;}
+
+}
+
+@media (max-width:440px){
+	.project-link{width:250px;}
+
+	.image{max-width:250px;
+			 margin-left:0px;
+	}
+
+	#projects{margin:0px auto;
+				 max-width:200px;
+	}
+}
+
+#profile{background-color:#20B2AA;
+			color:white;
+			display:flex;
+			flex-direction: column;
+			padding-bottom: 40px;
+}
+
+#profile h2{font-size:50px;}
+
+#profile-link{font-size:30px;
+				  color:black;
+				  text-align: center;
+				  margin-top:20px;			  
+}
+
+#container{max-width:500px;
+			  margin:0px auto;
+}
+
+#profile-body{background-color:#20B2AA;}
